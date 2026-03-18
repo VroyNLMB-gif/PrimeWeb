@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | ShieldFire Protection</title>
+  <meta name="description" content="Contact ShieldFire Protection for fire sprinkler inspections and fire pump services. Call or fill out our form.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header scrolled" id="header">
+  <div class="container">
+    <a href="index.html" class="logo" style="color:var(--dark)">
+      <svg viewBox="0 0 36 36" class="logo-icon"><path d="M18 2C15 8 8 14 8 22a10 10 0 0020 0c0-8-7-14-10-20zm0 28a6 6 0 01-6-6c0-4 3-8 6-12 3 4 6 8 6 12a6 6 0 01-6 6z"/></svg>
+      ShieldFire
+    </a>
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="quote.html">Get a Quote</a>
+    </nav>
+    <div class="header-cta">
+      <a href="tel:+18005551234" class="header-phone" style="color:var(--primary)">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.36 11.36 0 003.58.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.58 1 1 0 01-.25 1.01l-2.2 2.2z"/></svg>
+        (800) 555-1234
+      </a>
+      <a href="quote.html" class="btn btn-primary btn-sm">Free Quote</a>
+    </div>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <span class="section-label" style="color:var(--primary-light);">Get In Touch</span>
+    <h1>Contact Us</h1>
+    <p>Have a question or need to schedule a service? We're here to help.</p>
+    <div class="breadcrumb"><a href="index.html">Home</a> / <span>Contact</span></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="contact-layout">
+      <div class="reveal-left">
+        <h2 style="margin-bottom:8px;">Send Us a Message</h2>
+        <p style="margin-bottom:32px;color:var(--gray-500);">Fill out the form and we'll get back to you within 24 hours.</p>
+        <form id="contactForm" class="form-grid">
+          <div class="form-group">
+            <label for="contactName">Full Name *</label>
+            <input type="text" id="contactName" name="name" placeholder="John Smith" required>
+          </div>
+          <div class="form-group">
+            <label for="contactEmail">Email Address *</label>
+            <input type="email" id="contactEmail" name="email" placeholder="john@example.com" required>
+          </div>
+          <div class="form-group">
+            <label for="contactPhone">Phone Number</label>
+            <input type="tel" id="contactPhone" name="phone" placeholder="(555) 123-4567">
+          </div>
+          <div class="form-group">
+            <label for="contactService">Service Needed</label>
+            <select id="contactService" name="service">
+              <option value="">Select a service...</option>
+              <option value="sprinkler-inspection">Fire Sprinkler Inspection</option>
+              <option value="pump-inspection">Fire Pump Inspection</option>
+              <option value="pump-testing">Fire Pump Testing</option>
+              <option value="maintenance">System Maintenance</option>
+              <option value="emergency">Emergency Service</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div class="form-group full-width">
+            <label for="contactMessage">Message *</label>
+            <textarea id="contactMessage" name="message" placeholder="Tell us how we can help..." required></textarea>
+          </div>
+          <div class="form-group full-width">
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </div>
+        </form>
+      </div>
+      <div class="reveal-right">
+        <div class="contact-info-card">
+          <h3>Contact Information</h3>
+          <p>Reach out through any channel below.</p>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.36 11.36 0 003.58.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.58 1 1 0 01-.25 1.01l-2.2 2.2z"/></svg></div>
+            <div><h4>Phone</h4><p>(800) 555-1234</p></div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg></div>
+            <div><h4>Email</h4><p>info@shieldfire.com</p></div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 010-5 2.5 2.5 0 010 5z"/></svg></div>
+            <div><h4>Service Area</h4><p>Greater Metro Area</p></div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z"/></svg></div>
+            <div><h4>Business Hours</h4><p>Mon–Fri: 7am – 6pm<br>24/7 Emergency</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="background:var(--gray-100);padding:0;">
+  <div style="width:100%;height:400px;background:var(--gray-300);display:flex;align-items:center;justify-content:center;color:var(--gray-500);">
+    <div style="text-align:center;">
+      <svg viewBox="0 0 24 24" width="48" height="48" fill="currentColor" style="opacity:.3;margin-bottom:8px;"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 010-5 2.5 2.5 0 010 5z"/></svg>
+      <p>Service Area Map<br><small>Embed your Google Maps iframe here</small></p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo"><svg viewBox="0 0 36 36" class="logo-icon"><path d="M18 2C15 8 8 14 8 22a10 10 0 0020 0c0-8-7-14-10-20zm0 28a6 6 0 01-6-6c0-4 3-8 6-12 3 4 6 8 6 12a6 6 0 01-6 6z"/></svg>ShieldFire</a>
+        <p>Professional fire protection services since 1999.</p>
+      </div>
+      <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="services.html">Services</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li><li><a href="quote.html">Get a Quote</a></li></ul></div>
+      <div class="footer-col"><h4>Services</h4><ul><li><a href="services.html">Sprinkler Inspections</a></li><li><a href="services.html">Pump Inspections</a></li><li><a href="services.html">Pump Testing</a></li><li><a href="services.html">Maintenance</a></li></ul></div>
+      <div class="footer-col"><h4>Contact</h4><ul class="footer-contact"><li><svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.36 11.36 0 003.58.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.58 1 1 0 01-.25 1.01l-2.2 2.2z"/></svg>(800) 555-1234</li><li><svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>info@shieldfire.com</li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 ShieldFire Protection. All rights reserved.</p>
+      <div class="footer-bottom-links"><a href="#">Privacy Policy</a><a href="#">Terms of Service</a></div>
+    </div>
+  </div>
+</footer>
+
+<div class="floating-contact"><a href="tel:+18005551234" class="floating-btn" aria-label="Call us"><svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24 11.36 11.36 0 003.58.57 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.36 11.36 0 00.57 3.58 1 1 0 01-.25 1.01l-2.2 2.2z"/></svg></a></div>
+<script src="script.js"></script>
+</body>
+</html>
